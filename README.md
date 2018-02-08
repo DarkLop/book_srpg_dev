@@ -68,7 +68,7 @@ The program of book 《SPRG游戏开发》(《SRPG Game Development》).
 >
 >[http://blog.csdn.net/darkrabbit/article/details/79212625](http://blog.csdn.net/darkrabbit/article/details/79212625)
 
-第五章 颜色映射(Palette)与职业动画(Class Animator)
+第五章 颜色映射(Palette Swap)与职业动画(Class Animator)
 
 一 颜色映射流程(Flow Chart)
 
