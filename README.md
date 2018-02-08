@@ -30,62 +30,103 @@ The program of book 《SPRG游戏开发》(《SRPG Game Development》).
 
 一 导入素材
 
+>Inspector
+>
 >导入贴图素材与设置
 >
 >[http://blog.csdn.net/darkrabbit/article/details/79168225](http://blog.csdn.net/darkrabbit/article/details/79168225)
 
 二 绘制一张简单地图
 
+>Unity Component
+>
 >Grid与素材的关系，以及如何绘制Tilemap
 >
 >[http://blog.csdn.net/darkrabbit/article/details/79177935](http://blog.csdn.net/darkrabbit/article/details/79177935)
 
 三 创建自己的SrpgTile
 
+>ScirptableObject
+>
 >如何自定义一个带数据的Tile，以及修改Rule Tile
 >
 >[http://blog.csdn.net/darkrabbit/article/details/79181945](http://blog.csdn.net/darkrabbit/article/details/79181945)
 
 四 初步完善地图编辑器(Map Graph)
 
->编辑器扩展，如何在Scene面板中绘制文字与辅助线
+>MonoBehaviour，Editor，编辑器扩展
+>
+>如何在Scene面板中绘制文字与辅助线
 >
 >[http://blog.csdn.net/darkrabbit/article/details/79212137](http://blog.csdn.net/darkrabbit/article/details/79212137)
 
 第四章 图集(Atlas)
 
+>Inspector
+>
 >如何打包图集，与Draw Call的关系
 >
 >[http://blog.csdn.net/darkrabbit/article/details/79212625](http://blog.csdn.net/darkrabbit/article/details/79212625)
 
-第五章 颜色映射(Color Palette)
+第五章 颜色映射(Palette)与职业动画(Class Animator)
 
-上 映射流程与创建颜色映射 coming soon
+一 颜色映射流程(Flow Chart)
 
->一 流程图
+>Flow Chart
 >
->二 颜色组(Color Chart)
+>颜色映射的流程图
 >
->三 颜色转换器(Color Swapper)
+>[http://blog.csdn.net/darkrabbit/article/details/79266426](http://blog.csdn.net/darkrabbit/article/details/79266426)
+
+二 颜色组(Color Chart)
+>ScriptableObject
 >
-
-中 测试并创建创建Class动画与完善颜色转换器 coming soon
-
->四 测试颜色映射与创建Class动画
+>实现颜色组
 >
->五 完善颜色转换器与再次测试
+>[http://blog.csdn.net/darkrabbit/article/details/79266433](http://blog.csdn.net/darkrabbit/article/details/79266433)
+
+三 颜色转换器(Color Swapper)
+
+>MonoBehaviour
 >
-
-下 更方便的使用(ColorChartEditor)与增加Cache减少Draw Call coming soon
-
->六 建立颜色组编辑器(Editor)
+>实现颜色转换器
 >
->七 增加Cache与减少Draw Call
+>[http://blog.csdn.net/darkrabbit/article/details/79266439](http://blog.csdn.net/darkrabbit/article/details/79266439)
+
+四 测试与创建Class Animator
+
+>AnimatorController
 >
+>测试颜色映射，创建职业的动画
+>
+>[http://blog.csdn.net/darkrabbit/article/details/79266446](http://blog.csdn.net/darkrabbit/article/details/79266446)
 
-第六章 消息事件(Message/Event)与UI 待整理
+五 修正颜色转换器(Fix Color Swapper)
 
->从简部分，会简单写个能用的
+>MonoBehaviour
+>
+>修正在动画中不能颜色映射的错误
+>
+>[http://blog.csdn.net/darkrabbit/article/details/79266457](http://blog.csdn.net/darkrabbit/article/details/79266457)
+
+六 颜色组编辑器(EditorWindow)
+
+>Editor，EditorWindow，编辑器扩展
+>
+>更方便的调整颜色
+>
+>[http://blog.csdn.net/darkrabbit/article/details/79266462](http://blog.csdn.net/darkrabbit/article/details/79266462)
+
+七 减少Draw Call与使用Cache
+>CSharp
+>
+>创建缓存，减少颜色映射的Draw Call
+>
+>[http://blog.csdn.net/darkrabbit/article/details/79266467](http://blog.csdn.net/darkrabbit/article/details/79266467)
+
+第六章 基础框架(Framework) （待定）待整理
+
+>从简部分，会简单写个能用的，包括一些公共部分，单例，UI，Event等等
 
 第七章 移动(Move)与寻路(AStar) 待整理
 
@@ -105,6 +146,6 @@ The program of book 《SPRG游戏开发》(《SRPG Game Development》).
 
 ----------
 
-## **Project in GitHub (Test Version)**
+## **Project in GitHub**
 
 [Test Version](https://github.com/DarkLop/book_srpg_dev)
