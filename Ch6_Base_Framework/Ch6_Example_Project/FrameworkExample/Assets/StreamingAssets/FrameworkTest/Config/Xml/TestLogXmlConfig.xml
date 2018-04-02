@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+/// **********************************************************************
+/// Copyright (C) 2018 DarkRabbit(ZhangHan)
+///
+/// File Name:				TestLogXmlConfig.xml
+/// Author:					DarkRabbit
+/// Create Time:			Wed, 07 Mar 2018 21:25:34 GMT
+/// Modifier:
+/// Module Description:
+/// Version:				V1.0.0
+/// **********************************************************************
+-->
+<TestLogXmlConfig>
+  <Datas>
+    <TestLog ID="0" Log="我是XmlConfig， Test Log 0" />
+    <TestLog ID="1" Log="我是XmlConfig， Test Log 1" />
+  </Datas>
+</TestLogXmlConfig>

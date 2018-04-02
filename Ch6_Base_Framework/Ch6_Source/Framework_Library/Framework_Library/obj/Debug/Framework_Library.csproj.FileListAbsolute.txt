@@ -1,0 +1,10 @@
+E:\unity3D\book\srpg_dev\Framework_Library\Framework_Library\bin\Debug\Framework_Library.dll
+E:\unity3D\book\srpg_dev\Framework_Library\Framework_Library\bin\Debug\Framework_Library.pdb
+E:\unity3D\book\srpg_dev\Framework_Library\Framework_Library\bin\Debug\UnityEngine.dll
+E:\unity3D\book\srpg_dev\Framework_Library\Framework_Library\bin\Debug\UnityEngine.UI.dll
+E:\unity3D\book\srpg_dev\Framework_Library\Framework_Library\bin\Debug\UnityEngine.xml
+E:\unity3D\book\srpg_dev\Framework_Library\Framework_Library\bin\Debug\UnityEngine.UI.xml
+E:\unity3D\book\srpg_dev\Framework_Library\Framework_Library\obj\Debug\Framework_Library.csprojResolveAssemblyReference.cache
+E:\unity3D\book\srpg_dev\Framework_Library\Framework_Library\obj\Debug\Framework_Library.csproj.CoreCompileInputs.cache
+E:\unity3D\book\srpg_dev\Framework_Library\Framework_Library\obj\Debug\Framework_Library.dll
+E:\unity3D\book\srpg_dev\Framework_Library\Framework_Library\obj\Debug\Framework_Library.pdb

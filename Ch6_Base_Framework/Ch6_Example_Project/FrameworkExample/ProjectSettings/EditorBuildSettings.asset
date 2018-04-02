@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/SRPG_Dev/Framework/TestExample/Scene/TestFrameworkScene.unity
+    guid: ac3d5078fbb175b43933ff46d23e2113
+  - enabled: 1
+    path: Assets/SRPG_Dev/Framework/TestExample/Scene/TestFrameworkMainScene.unity
+    guid: 8a95a05750ae4a7449426d11da802dd7
+  - enabled: 1
+    path: Assets/SRPG_Dev/Framework/TestExample/Scene/TestFrameworkAddScene.unity
+    guid: ca45dddcaa0bc05449db238c17dfa9fc
+  - enabled: 1
+    path: Assets/SRPG_Dev/Framework/TestExample/Scene/TestFrameworkStageScene.unity
+    guid: 27cc3635bc707d0498aa93f5ec8a006a

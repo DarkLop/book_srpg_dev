@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BE986AD9-400B-4992-BDEA-AF6F076F30DA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Framework_Library</RootNamespace>
+    <AssemblyName>Framework_Library</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Application\ApplicationEntry.cs" />
+    <Compile Include="Application\LoadSceneType.cs" />
+    <Compile Include="Application\OnActiveSceneChangedArgs.cs" />
+    <Compile Include="Application\OnLoadSceneArgs.cs" />
+    <Compile Include="Application\OnSceneLoadedArgs.cs" />
+    <Compile Include="Application\OnSceneUnloadedArgs.cs" />
+    <Compile Include="Configs\ConfigFile.cs" />
+    <Compile Include="Configs\ConfigLoader.cs" />
+    <Compile Include="Configs\JsonConfigFile.cs" />
+    <Compile Include="Configs\TxtConfigFile.cs" />
+    <Compile Include="Configs\XmlConfigFile.cs" />
+    <Compile Include="Configs\XmlDocConfigFile.cs" />
+    <Compile Include="EventCenter\IMessageHandler.cs" />
+    <Compile Include="EventCenter\MessageArgs.cs" />
+    <Compile Include="EventCenter\MessageCenter.cs" />
+    <Compile Include="EventCenter\MessageControllerBase.cs" />
+    <Compile Include="ObjectPools\IReusableComponent.cs" />
+    <Compile Include="ObjectPools\ObjectPool.cs" />
+    <Compile Include="ObjectPools\PoolManager.cs" />
+    <Compile Include="ObjectPools\ReusableObject.cs" />
+    <Compile Include="ObjectPools\RuntimePrePoolObject.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Singleton\CoroutineInstance.cs" />
+    <Compile Include="Singleton\Singleton.cs" />
+    <Compile Include="Singleton\UnitySingleton.cs" />
+    <Compile Include="Tools\DontDestroyGameObject.cs" />
+    <Compile Include="Views\FrameworkUIUtility.cs" />
+    <Compile Include="Views\UIBase.cs" />
+    <Compile Include="Views\ViewBase.cs" />
+    <Compile Include="Views\ViewDictionary.cs" />
+    <Compile Include="Views\ViewManagerBase.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\UnityEngine.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
