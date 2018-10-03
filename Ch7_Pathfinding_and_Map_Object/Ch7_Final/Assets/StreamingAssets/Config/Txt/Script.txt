@@ -1,0 +1,3 @@
+﻿Config/Script
+
+main.script

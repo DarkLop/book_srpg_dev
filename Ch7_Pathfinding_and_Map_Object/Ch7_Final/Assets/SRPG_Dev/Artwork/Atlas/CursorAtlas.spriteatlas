@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: CursorAtlas
+  m_EditorData:
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingParameters:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: cc759e292e62d2b4fb034cf2035c2df4, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: cbd892e343e4e7a4b99ddca536d5215c, type: 3}
+  - {fileID: 21300000, guid: 74ee20a140242e84a9e98ce85dc6433d, type: 3}
+  - {fileID: 21300000, guid: ea1b78b5697965f468ddaa3c0da77a0b, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - cursor_yellow
+  - cursor_green
+  - cursor_blue
+  m_Tag: CursorAtlas
+  m_IsVariant: 0
