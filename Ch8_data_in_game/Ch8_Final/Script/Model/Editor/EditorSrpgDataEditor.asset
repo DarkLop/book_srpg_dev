@@ -1,0 +1,610 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4081daedbf1b16c4d9a23f3a15027c96, type: 3}
+  m_Name: EditorSrpgDataEditor
+  m_EditorClassIdentifier: 
+  currentConfig: 1
+  moveConsumptionConfig:
+    datas:
+    - classType: 0
+      consumptions:
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0.67
+    - classType: 1
+      consumptions:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - classType: 2
+      consumptions:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - classType: 3
+      consumptions:
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0.67
+    - classType: 4
+      consumptions:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - classType: 5
+      consumptions:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - classType: 6
+      consumptions:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - classType: 7
+      consumptions:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - classType: 8
+      consumptions:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - classType: 9
+      consumptions:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - classType: 10
+      consumptions:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - classType: 11
+      consumptions:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - classType: 12
+      consumptions:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - classType: 13
+      consumptions:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - classType: 14
+      consumptions:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+  classConfig:
+    datas:
+    - id: 0
+      prefab: Class
+      animator: 
+      name: "\u6B65\u5175"
+      classType: 3
+      movePoint: 6
+      fightProperties:
+        hp: 0
+        mp: 0
+        str: 6
+        mag: 1
+        skl: 5
+        spd: 5
+        def: 4
+        mdf: 1
+      maxFightProperties:
+        hp: 0
+        mp: 0
+        str: 16
+        mag: 5
+        skl: 18
+        spd: 18
+        def: 14
+        mdf: 8
+      availableWeapons:
+        sword: 5
+        lance: 0
+        axe: 0
+        bow: 0
+        staff: 0
+      followingProfile: 
+      followingGrouth:
+        hp: 0
+        mp: 0
+        str: 0
+        mag: 0
+        skl: 0
+        spd: 0
+        def: 0
+        mdf: 0
+  characterInfoConfig:
+    datas:
+    - id: 0
+      name: "\u4E3B\u89D2"
+      profile: zhujue
+      classId: 0
+      level: 1
+      fightProperties:
+        hp: 0
+        mp: 0
+        str: 3
+        mag: 0
+        skl: 3
+        spd: 4
+        def: 2
+        mdf: 0
+      luk: 5
+      items: 
+    - id: 1
+      name: "\u6B65\u5175\u654C\u4EBA1"
+      profile: bubing1
+      classId: 0
+      level: 1
+      fightProperties:
+        hp: 0
+        mp: 0
+        str: 2
+        mag: 0
+        skl: 2
+        spd: 1
+        def: 1
+        mdf: 0
+      luk: 0
+      items: 
+  itemInfoConfig:
+    datas:
+    - id: 0
+      name: "\u77ED\u5251"
+      icon: W_Sword001
+      price: 500
+      itemType: 1
+      editorUniqueInfo:
+        weaponUniqueInfo:
+          fightProperties:
+            hp: 0
+            mp: 0
+            str: 0
+            mag: 0
+            skl: 0
+            spd: 0
+            def: 0
+            mdf: 0
+          luk: 0
+          movePoint: 0
+          weaponType: 0
+          level: 3
+          attack: 4
+          minRange: 1
+          maxRange: 1
+          hit: 0
+          weight: 6
+          durability: 50
+        ornamentUniqueInfo:
+          fightProperties:
+            hp: 0
+            mp: 0
+            str: 0
+            mag: 0
+            skl: 0
+            spd: 0
+            def: 0
+            mdf: 0
+          luk: 0
+          movePoint: 0
+        consumableUniqueInfo:
+          stackingNumber: 0
+          amountUsed: 0
+          usingEffectId: 0
+    - id: 1
+      name: "\u957F\u5251"
+      icon: W_Sword011
+      price: 750
+      itemType: 1
+      editorUniqueInfo:
+        weaponUniqueInfo:
+          fightProperties:
+            hp: 0
+            mp: 0
+            str: 0
+            mag: 0
+            skl: 0
+            spd: 0
+            def: 0
+            mdf: 0
+          luk: 0
+          movePoint: 0
+          weaponType: 0
+          level: 4
+          attack: 6
+          minRange: 1
+          maxRange: 1
+          hit: 0
+          weight: 10
+          durability: 50
+        ornamentUniqueInfo:
+          fightProperties:
+            hp: 0
+            mp: 0
+            str: 0
+            mag: 0
+            skl: 0
+            spd: 0
+            def: 0
+            mdf: 0
+          luk: 0
+          movePoint: 0
+        consumableUniqueInfo:
+          stackingNumber: 0
+          amountUsed: 0
+          usingEffectId: 0
+  textInfoConfig:
+    datas:
+    - id: 0
+      text: "\u6D4B\u8BD5\u5BF9\u8BDD0"
+    - id: 1
+      text: "\u6D4B\u8BD5\u5BF9\u8BDD1"
+    - id: 2
+      text: "\u6D4B\u8BD5\u5BF9\u8BDD2"
+    - id: 5
+      text: "\u6D4B\u8BD5\u5BF9\u8BDD5"
+    - id: 8
+      text: "\u6D4B\u8BD5\u5BF9\u8BDD8"
