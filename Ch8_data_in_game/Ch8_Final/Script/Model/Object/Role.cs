@@ -57,7 +57,7 @@ namespace DR.Book.SRPG_Dev.Models
             get
             {
                 RoleModel model = ModelManager.models.Get<RoleModel>();
-                return model.GetOrCreateClass(self.characterId);
+                return model.GetOrCreateClass(self.classId);
             }
         }
 
