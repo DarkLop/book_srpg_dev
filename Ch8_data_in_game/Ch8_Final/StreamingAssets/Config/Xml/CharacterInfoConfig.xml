@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CharacterInfoConfig>
+  <datas>
+    <CharacterInfo id="0" name="主角" profile="zhujue" classId="0" level="1" luk="5">
+      <fightProperties hp="40" mp="15" str="3" mag="0" skl="3" spd="4" def="2" mdf="0" />
+      <items />
+    </CharacterInfo>
+    <CharacterInfo id="1" name="步兵敌人1" profile="bubing1" classId="0" level="1" luk="0">
+      <fightProperties hp="20" mp="0" str="2" mag="0" skl="2" spd="1" def="1" mdf="0" />
+      <items />
+    </CharacterInfo>
+  </datas>
+</CharacterInfoConfig>

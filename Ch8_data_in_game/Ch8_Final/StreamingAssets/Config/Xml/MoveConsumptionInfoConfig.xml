@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MoveConsumptionInfoConfig>
+  <datas>
+    <MoveConsumptionInfo classType="Knight1" consumptions="0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.67" />
+    <MoveConsumptionInfo classType="Knight2" consumptions="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+    <MoveConsumptionInfo classType="Flier" consumptions="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+    <MoveConsumptionInfo classType="Foot" consumptions="0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.67" />
+    <MoveConsumptionInfo classType="Armor" consumptions="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+    <MoveConsumptionInfo classType="Soldier" consumptions="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+    <MoveConsumptionInfo classType="Fighter" consumptions="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+    <MoveConsumptionInfo classType="Brigand" consumptions="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+    <MoveConsumptionInfo classType="Pirate" consumptions="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+    <MoveConsumptionInfo classType="Nobility" consumptions="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+    <MoveConsumptionInfo classType="Mage" consumptions="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+    <MoveConsumptionInfo classType="Thief" consumptions="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+    <MoveConsumptionInfo classType="Civilian" consumptions="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+    <MoveConsumptionInfo classType="Archer" consumptions="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+    <MoveConsumptionInfo classType="DarkPrince" consumptions="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+  </datas>
+</MoveConsumptionInfoConfig>

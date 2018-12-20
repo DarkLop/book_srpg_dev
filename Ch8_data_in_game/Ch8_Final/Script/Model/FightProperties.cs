@@ -217,8 +217,8 @@ namespace DR.Book.SRPG_Dev.Models
         {
             FightProperties fight = new FightProperties
             {
-                hp = Mathf.Clamp(value.hp, 1, max.hp),
-                mp = Mathf.Clamp(value.mp, 0, max.mp),
+                hp = Mathf.Clamp(value.hp, 1, SettingVars.maxHp),
+                mp = Mathf.Clamp(value.mp, 0, SettingVars.maxMp),
                 str = Mathf.Clamp(value.str, 0, max.str),
                 mag = Mathf.Clamp(value.mag, 0, max.mag),
                 skl = Mathf.Clamp(value.skl, 0, max.skl),
