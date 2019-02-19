@@ -1,0 +1,62 @@
+﻿// 测试剧本
+
+#Testing; // 测试剧本
+
+	#TestMenuIfGotoCmd;
+		clear text;
+		menu option
+			"测试var、calc和debug命令"
+			"测试text命令";
+
+		if option == 0 goto #TestVarCalcDebugCmd;
+		if option == 1 goto #TestTextCmd;
+		goto #Testing;
+
+	#TestVarCalcDebugCmd;
+		text global
+			"1：测试变量var、calc和debug命令。"
+			"按下按键后，变量值将打印在Unity的Console面板中。";
+
+		var a;
+		var b = 20;
+		var c = 30;
+		calc c += b; // c = 50
+		var d = b; // d = 20
+
+		debug log "Test Debug Log \"a\" \"b\" \"c\" \"d\":";
+		debug log 
+			"a = " a 
+			", b = " b 
+			", c = " c 
+			", d = " d;
+
+		text global
+			"测试变量结束";
+		goto #Testing;
+	
+	#TestTextCmd;
+		text global 
+			"2：测试文本text命令，将按以下顺序："
+			"1 测试字符串和从TextInfo读取id=1，显示在上面板；"
+			"2 测试字符串和从TextInfo读取id=2，显示在下面板；"
+			"3 测试富文本，显示在全局面板。";
+
+		text top 
+			"字符串测试，上面板: '我被单引号括起来了'。"
+			"下面一行是从TextInfo读取id=1："
+			1;
+		text bottom 
+			"字符串测试，下面板：\"我是被双引号括起来了\"。"
+			"下面一行是从TextInfo读取id=2："
+			2;
+		text global 
+			"富文本测试，富文本暂不支持嵌套："
+			"<color=#ff0000>红色</color> <color=#00ff00>绿色</color>"
+			"<color=#0000ff>蓝色</color> <color=#808080>灰色</color>"
+			"<b>加粗</b> <i>斜体</i>"
+			"<size=40>大小40</size> <size=16>大小16</size>"
+			"双引号内是空的富文本格式，测试是否报错：\"<b></b>\"";
+
+		text global 
+			"测试文本结束";
+		goto #Testing;
