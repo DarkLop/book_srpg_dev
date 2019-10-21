@@ -97,5 +97,17 @@ namespace DR.Book.SRPG_Dev.Maps.FindPath
 
             return true;
         }
+
+        public override void BuildResult(PathFinding search)
+        {
+            for (int i = 0; i < search.explored.Count; i++)
+            {
+                CellData cell = search.explored[i];
+                if (cell.g >= search.range.x && cell.g <= search.range.y)
+                {
+                    search.result.Add(cell);
+                }
+            }
+        }
     }
 }

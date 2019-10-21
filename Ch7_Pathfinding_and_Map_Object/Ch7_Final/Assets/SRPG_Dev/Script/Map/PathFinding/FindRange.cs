@@ -50,9 +50,19 @@ namespace DR.Book.SRPG_Dev.Maps.FindPath
             return 1f;
         }
 
+        /// <summary>
+        /// 用H计算攻击距离
+        /// </summary>
+        /// <param name="search"></param>
+        /// <param name="adjacent"></param>
+        /// <returns></returns>
         public virtual float CalcH(PathFinding search, CellData adjacent)
         {
-            return 0f;
+            CellData startCell = search.startCell ?? search.endCell;
+            Vector2 hVec;
+            hVec.x = Mathf.Abs(adjacent.position.x - startCell.position.x);
+            hVec.y = Mathf.Abs(adjacent.position.y - startCell.position.y);
+            return hVec.x + hVec.y;
         }
 
         public virtual bool CanAddAdjacentToReachable(PathFinding search, CellData adjacent)
@@ -69,16 +79,26 @@ namespace DR.Book.SRPG_Dev.Maps.FindPath
                 return false;
             }
 
-            // 计算消耗 = 当前cell的消耗 + 邻居cell的消耗
-            float g = search.currentCell.g + CalcGPerCell(search, adjacent);
+            //// 计算消耗 = 当前cell的消耗 + 邻居cell的消耗
+            //float g = search.currentCell.g + CalcGPerCell(search, adjacent);
 
-            // 不在范围内
-            if (g < 0f || g > search.range.y)
+            // 计算攻击距离
+            float h = CalcH(search, adjacent);
+
+            //// 不在范围内
+            //if (g < 0f || g > search.range.y)
+            //{
+            //    return false;
+            //}
+
+            // 攻击距离不在范围内
+            if (h < 0f || h > search.range.y)
             {
                 return false;
             }
 
-            adjacent.g = g;
+            //adjacent.g = g;
+            adjacent.h = h;
 
             return true;
         }
@@ -88,7 +108,8 @@ namespace DR.Book.SRPG_Dev.Maps.FindPath
             for (int i = 0; i < search.explored.Count; i++)
             {
                 CellData cell = search.explored[i];
-                if (cell.g >= search.range.x && cell.g <= search.range.y)
+                //if (cell.g >= search.range.x && cell.g <= search.range.y)
+                if (cell.h >= search.range.x && cell.h <= search.range.y)
                 {
                     search.result.Add(cell);
                 }
